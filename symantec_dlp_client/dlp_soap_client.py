@@ -14,7 +14,7 @@ class SymantecAuth(AuthBase):
     otherwise send a request without credentials.
 
     Needed due to a call to www.w3.org/2005/05/xmlmime which fails if credentials are passed
-    
+    Referenced from here : https://www.symantec.com/connect/forums/api-dlp-servers
     :param AuthBase: [description]
     :type AuthBase: [type]  
     :return: [description]

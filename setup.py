@@ -12,10 +12,11 @@ setup(
     description="A python package used to interface with the Symantec DLP SOAP API",
     license="MIT",
     author="Ryan Gordon",
+    url="https://github.com/Ryan-Gordon/symantec_dlp_client",
     packages=find_packages(),
     install_requires=[
         "zeep>=3.4.0",
-        "requests" # Ideally this should be pinned to something
+        "requests" # Ideally this should be pinned to something, open for now.
     ],
     long_description=long_description,
     long_description_content_type='text/markdown',
